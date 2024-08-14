@@ -14,16 +14,20 @@ let age = 18
 let isLoggedIn = false
 let state;
 
-// number => 2 to power 53
-// bigint
-// string => ""
-// boolean => true/false
-// null => standalone value
-// undefined => when not initialized
+
+// Primitives (call by value)
+// number => returns number
+// bigInt => returns bigInt
+// string => "" returns String
+// boolean => true/false returns Boolean
+// null => standalone value "returns object!!"
+// undefined => when not initialized "returns undefined"
 // symbol => unique.. will discuss in react
 
-
-// object
+// Non-Premitives (call by Reference)
+// object => returns object
+// function => returns function
+// Array => returns object
 
 console.log(typeof undefined); // prints undefined
 console.log(typeof null); // prints object
