@@ -1,6 +1,7 @@
 const name = "hitesh"
 const repoCount = 50
 
+// In JS string is internally stored as key-value pair as an object 
 // console.log(name + repoCount + " Value");
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); 
@@ -12,7 +13,7 @@ const gameName = new String('hitesh-hc-com')
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
 
-// prototype in JS is a topic it gives some functions/methods to perform with string
+// prototype in JS is a topic it gives some functions/methods to perform with string (or any other object)
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
