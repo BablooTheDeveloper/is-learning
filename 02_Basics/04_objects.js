@@ -72,11 +72,17 @@ const course = {
 }
 
 // course.courseInstructor
+// above method to use any property from the object can be hectic
 
+// object de-structure
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
 console.log(instructor);
+
+
+// JSON a kind of object used for API
+// it has both "key-value" in string representation
 
 // {
 //     "name": "hitesh",
