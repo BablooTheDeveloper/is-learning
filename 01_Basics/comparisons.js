@@ -13,7 +13,7 @@ console.log(null > 0);
 console.log(null == 0);
 console.log(null >= 0);
 
-// In third case JS treats "null" as a number only when it is being compared
+// In third & first case JS treats "null" as a number-0 only when it is being compared
 
 console.log(undefined == 0);
 console.log(undefined > 0);
